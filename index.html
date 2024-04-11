@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+
+        <title>Coffe Cup</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="img/coffe_logo.png" alt>
+            </a>
+            <nav class="navbar">
+                <a href="#home">Inicio</a>
+                <a href="#about">Nosotros</a>
+                <a href="#menu">Menu</a>
+                <a href="#products">Productos</a>
+                <a href="#review">Clientes</a>
+                <a href="#contact">Contacto</a>
+                <a href="#blogs">Blog</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Busca aqui">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="img/cafe-grano1.png" alt>
+                    <div class="content">
+                        <h3>Tarjeta item 01</h3>
+                        <div class="price">$16.000</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="img/cafe-grano1.png" alt>
+                    <div class="content">
+                        <h3>Tarjeta item 02</h3>
+                        <div class="price">$16.000</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="img/cafe-grano1.png" alt>
+                    <div class="content">
+                        <h3>Tarjeta item 03</h3>
+                        <div class="price">$16.000</div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Chequear Ahora</a>
+            </div>
+        </header>
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Cafe de Grano</h3>
+                <p>El mejor cafe de toda la zona</p>
+                <a href="#" class="btn"> Comprar</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h1 class="heading"> <span>Sobre</span> Nosotros</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="img/coffe-1.jpg" alt>
+                </div>
+                <div class="content">
+                    <h3>
+                        ¿Qué hace que nuestro café sea especial?</h3>
+                    <p>Nuestro café especial se distingue por su origen único y
+                        su meticuloso proceso de selección. Cultivado en las
+                        exuberantes montañas de América Latina, cada grano es
+                        cuidadosamente cosechado a mano por agricultores
+                        apasionados que comparten nuestro compromiso con la
+                        calidad y la sostenibilidad.
+                    </p>
+                    <a href="#" class="btn">Leer mas</a>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <h1 class="heading"> Nuesto<span> Menu</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/coffe1.png" alt>
+                    <h3>Tarjeta item 01</h3>
+                    <div class="price">$16.000 <span>$20.000</span></div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="box">
+                    <img src="img/coffe2.png" alt>
+                    <h3>Tarjeta item 01</h3>
+                    <div class="price">$16.000 <span>$20.000</span></div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="box">
+                    <img src="img/coffe3.png" alt>
+                    <h3>Tarjeta item 01</h3>
+                    <div class="price">$16.000 <span>$20.000</span></div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="box">
+                    <img src="img/coffe4.png" alt>
+                    <h3>Tarjeta item 01</h3>
+                    <div class="price">$16.000 <span>$20.000</span></div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="box">
+                    <img src="img/coffe5.png" alt>
+                    <h3>Tarjeta item 01</h3>
+                    <div class="price">$16.000 <span>$20.000</span></div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="box">
+                    <img src="img/coffe6.png" alt>
+                    <h3>Tarjeta item 01</h3>
+                    <div class="price">$16.000 <span>$20.000</span></div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+        </section>
+        <section class="products" id="products">
+            <h1 class="heading">Nuestros <span> Productos</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="icons">
+                        <a href class="fas fa-shopping-cart"></a>
+                        <a href class="fas fa-heart"></a>
+                        <a href class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/coffe-product-1.png">
+                    </div>
+                    <div class="content">
+                        <h3>Cafe de Grano</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$16.000 <span>$20.000</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href class="fas fa-shopping-cart"></a>
+                        <a href class="fas fa-heart"></a>
+                        <a href class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/coffe-product-2.png">
+                    </div>
+                    <div class="content">
+                        <h3>Cafe de Grano</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$16.000 <span>$20.000</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href class="fas fa-shopping-cart"></a>
+                        <a href class="fas fa-heart"></a>
+                        <a href class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="img/coffe-product-3.png">
+                    </div>
+                    <div class="content">
+                        <h3>Cafe de Grano</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">$16.000 <span>$20.000</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="review" id="review">
+            <h1 class="heading">Nuestros <span> Clientes</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/" alt class="quote">
+                    <p>¡Qué experiencia tan maravillosa en esta tienda de café!
+                        Desde el momento en que entré, fui recibido con una
+                        cálida bienvenida y un ambiente acogedor.</p>
+                    <img src="img/cliente-1.jpeg" class="user"
+                        alt="imagen de cliente">
+                    <h3>Alejandro Torres</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/" alt class="quote">
+                    <p>Una experiencia excepcional en café. Delicioso, ambiente
+                        acogedor y personal amable. ¡Volveré!</p>
+                    <img src="img/cliente-2.jpeg" class="user"
+                        alt="imagen de cliente">
+                    <h3>Valentina Rodríguez</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/" alt class="quote">
+                    <p>Increíble café, servicio impecable. Mi nueva parada
+                        favorita para el café de calidad.</p>
+                    <img src="img/cliente-3.jpeg" class="user"
+                        alt="imagen de cliente">
+                    <h3>Gabriel López</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Como</span> Contactarnos</h1>
+            <div class="row">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.5723503725685!2d-70.72414068813018!3d-33.408319573295294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c153f3bc2323%3A0xe1d0bf4f809bd255!2sPaico%205051%2C%208651013%20Renca%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1709916805762!5m2!1ses-419!2scl"
+                    allowfullscreen
+                    loading="lazy"></iframe>
+                <form action>
+                    <h3>Contactanos</h3>
+                    <div class="inputBox">
+                        <span class="fas fa-user"></span>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-phone"></span>
+                        <input type="number" placeholder="Numero">
+                    </div>
+                    <input type="submit" value="Contactanos Ahora" class="btn">
+                </form>
+            </div>
+        </section>
+        <section class="blogs" id="blogs">
+            <h1 class="heading"><span>Nuestro</span> Blog</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="img/coffe-blog1.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">cafe rico y refrescante</a>
+                        <span>20 de abril, 2021</span>
+                        <p>El café se obtiene de las semillas del fruto del
+                            árbol de café, comúnmente conocido como cafeto.
+                            Estas semillas, llamadas granos de café, se
+                            encuentran en el interior de una baya roja o
+                            amarilla que crece en el árbol.</p>
+                        <a href="#" class="btn">Leer mas</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/coffe-blog2.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">cafe rico y refrescante</a>
+                        <span>20 de abril, 2021</span>
+                        <p>El café se obtiene de las semillas del fruto del
+                            árbol de café, comúnmente conocido como cafeto.
+                            Estas semillas, llamadas granos de café, se
+                            encuentran en el interior de una baya roja o
+                            amarilla que crece en el árbol.</p>
+                        <a href="#" class="btn">Leer mas</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/coffe-blog3.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">cafe rico y refrescante</a>
+                        <span>20 de abril, 2021</span>
+                        <p>El café se obtiene de las semillas del fruto del
+                            árbol de café, comúnmente conocido como cafeto.
+                            Estas semillas, llamadas granos de café, se
+                            encuentran en el interior de una baya roja o
+                            amarilla que crece en el árbol.</p>
+                        <a href="#" class="btn">Leer mas</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+                <div class="links">
+                    <a href="#">Inicio</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Productos</a>
+                    <a href="#">Clientes</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="credit">
+                    Creado por <span>Jimmy Betancur</span> | Todos los Derechos
+                    Reservados
+                </div>
+            </section>
+            <script src="script.js"></script>
+        </body>
+    </html>
